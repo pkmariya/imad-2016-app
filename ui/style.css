@@ -4,15 +4,8 @@ body {
 }
 
 .image {
-    padding: 2em;
+    padding: 1em;
     text-align: center;
-}
-
-.center {
-    text-align: center;
-    margin-bottom: .5em;
-    background-color: green;
-    border-radius: 5px;
 }
 
 /*
@@ -49,6 +42,14 @@ body {
     font-family: sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.footer {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 80px;
+	color: yellow;
+	text-align: center;
 }
 
 #footer-tab {
