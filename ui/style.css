@@ -76,5 +76,7 @@ h4{
 }
 
 #email {
+//	text-align: right;
+	position: relative;
 	margin-left: 925px;
 }
