@@ -20,14 +20,22 @@
 						This is my first Webapp! I'm running this App from my local box!
 				</div>
         	<hr/>
-			<h3>Professional</h3>
+			<h3>Some Info</h3>
 				<div>
-						I work at Ford
+						<script> 
+							document.write("Current URL: " + window.location.href + "<br />");
+							document.write("Current Host: " + window.location.hostname + "<br />");
+							document.write("Current Path: " + window.location.pathname + "<br />");
+							document.write("Protocol is: " + window.location.protocol + "<br />");
+							
+							var pElements = document.getElementsByTagName('div');
+							pElements[1].style.backgroundColor = "#EFDECD";
+						</script>
 				</div>
 			<hr/>
 			<h3> Name List </h3>
 				<div>
-					<input type="text" id="name" placeholder="name"></input>
+					<input type="text" id="name" placeholder="Enter a name" ></input>
 					<input type="submit" id='submit_btn' value="Submit"></input>
 					<ul id='namelist'>
 					</ul>
