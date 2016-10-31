@@ -2,16 +2,30 @@
 <html>
     <head>
     	<title> Mariya's First Webapp </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="/ui/style.css" rel="stylesheet" />
     	<link href="/ui/favicon.ico" rel="shortcut icon" />
-	<link href="" rel="shortcut icon" />
+		<link href="" rel="shortcut icon" />
 	</head>
     <body>
         <div class="header">
-			<h2 id='name-header'>K. Mariya Arul Raj</h2> 
+			<h2 id='name-header'><span class='element'>It's </span>Mariya</h2> 
 			<h4 id='phone'>+91 xxx xxx 5308</h4>
 			<h4 id='email'>pkmariya@mariya.com</h4>			
         </div>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="/typed.min.js"></script>
+		
+		<script>
+			$(function(){
+				$(".element").typed({
+					strings: ["Marvellous", "Melodious", "Meticulous", "Wonderful"],
+					typeSpeed: 300
+				});
+			});
+		</script>
+		
         <div class="container">
         	<div class="image">
             		<img id="myimage" src="\ui\Puppy.jpg" class="img-medium"/>
