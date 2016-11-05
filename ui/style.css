@@ -1,21 +1,14 @@
+
 body {
     font-family: sans-serif;
-    margin-top: 10px;
-//	background-image: url("backgroundBharathi.jpg");
+    margin-top: 5px;
+	background-image: url("bgrnd.jpg");
 }
 
 .image {
     padding: 1em;
     text-align: center;
 }
-
-/*
-
-.image:hover {
-	transform: rotate(-45deg);	
-}
-
-*/
 
 .text-big {
     font-size: 200%;
@@ -34,21 +27,20 @@ body {
 	height: 100px;
 	border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: #ff9933;
-	margin-top: -5px;
+    background-color: orange; 
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
+    width: 50%;
+	float: left;
     color: darkgreen;
     font-family: sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+	margin-top: 5px;
+	padding: 10px;
 }
 
 .footer {
-	max-width: 800px;
+	width: 70%;
 	margin: auto;
 	padding-top: 80px;
 	color: yellow;
@@ -56,6 +48,7 @@ body {
 }
 
 #footer-tab {
+	clear: both;
     height: 100px;
     border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -63,7 +56,6 @@ body {
 }
 
 #name-header {
-	padding-top: 30px;
 	text-align: center;
 	color: darkgreen;
 }
@@ -75,12 +67,28 @@ h4{
 
 #phone {
 	float: left;
-	margin-left: 10px;
-	margin-top: -5px;
+	margin-left: 5px;
 }
 
 #email {
 	float: right;
 	margin-right: 5px;
-	margin-top: -5px;
+}
+
+#left1{
+	float: left;
+	clear: both;
+}
+
+.leftright{
+	width: 20%;
+	background-color: lightgrey;
+	border: 0px;
+	height: 530px;	
+	display: inline-block;
+	border-radius: 5px;	
+}
+
+#right{
+	float: right;
 }

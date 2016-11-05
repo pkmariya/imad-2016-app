@@ -132,6 +132,10 @@ app.get('/ui/Puppy.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Puppy.jpg'));
 });
 
+app.get('/ui/bgrnd.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bgrnd.jpg'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
