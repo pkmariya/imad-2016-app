@@ -1,8 +1,12 @@
 
 body {
     font-family: sans-serif;
-    margin-top: 5px;
 	background-image: url("bgrnd.jpg");
+	background-size: cover; 
+}
+
+#menu {
+	margin-left: 5px;
 }
 
 .image {
@@ -24,10 +28,14 @@ body {
 }
 
 .header {
-	height: 100px;
+//	position: fixed;
+	height: 130px;
+	width: 100%;
+	top: 0;
 	border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: orange; 
+    background-color: darkseagreen; 
+//	overflow: auto;
 }
 
 .container {
@@ -42,17 +50,26 @@ body {
 .footer {
 	width: 70%;
 	margin: auto;
-	padding-top: 80px;
-	color: yellow;
+	padding-top: 70px;
+	font-size: 18px;
+	color: chocolate;
 	text-align: center;
+}
+
+#count {
+	color: gold;
+	font-size: 20px;
 }
 
 #footer-tab {
 	clear: both;
+//	position: fixed;
     height: 100px;
+	width: 100%;
+//	bottom: 0;
     border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-    background-color: green;
+    background-color: darkseagreen;
 }
 
 #name-header {
@@ -82,9 +99,10 @@ h4{
 
 .leftright{
 	width: 20%;
-	background-color: lightgrey;
+	background-color: beige;
 	border: 0px;
-	height: 530px;	
+	min-height: 530px;
+	height: auto;
 	display: inline-block;
 	border-radius: 5px;	
 }
